@@ -17,7 +17,7 @@
         "php": "^8.2",
         "laravel/lumen-framework": "^10.0",
         "squizlabs/php_codesniffer": "^3.7",
-        "jobcloud/php-kafka-lib": "^2.0"
+        "jobcloud/php-kafka-lib": "^1.0"
     },
     "scripts": {
         "php-fixer": [

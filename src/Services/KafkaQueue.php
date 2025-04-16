@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace Kafka\Services;
+
 use Kafka\Jobs\Job;
 use Illuminate\Queue\Queue;
 use Jobcloud\Kafka\Producer\KafkaProducer;
@@ -33,7 +34,8 @@ class KafkaQueue extends Queue implements QueueContract
      */
     public function push($job, $data = '', $queue = null)
     {
-        $message = KafkaProducerMessage::create(config('queue.connections.kafka.topic-name'), 0)->withBody(serialize($job));
+        $message = KafkaProducerMessage::create(config('queue.connections.kafka.topic-name'), 0)
+            ->withBody(serialize($job));
 
         $this->producer->produce($message);
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "718129c363002593bc025455d4e9107c",
+    "content-hash": "97c6f60be60e6514b45e78e1440e2f14",
     "packages": [
         {
             "name": "brick/math",
@@ -2171,30 +2171,30 @@
         },
         {
             "name": "jobcloud/php-kafka-lib",
-            "version": "v2.0.0",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jobcloud/php-kafka-lib.git",
-                "reference": "d66de3f984786cf48cca2afbbae4744281747277"
+                "reference": "2bb7f9c7b771786f37e6f38a168423f480894292"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jobcloud/php-kafka-lib/zipball/d66de3f984786cf48cca2afbbae4744281747277",
-                "reference": "d66de3f984786cf48cca2afbbae4744281747277",
+                "url": "https://api.github.com/repos/jobcloud/php-kafka-lib/zipball/2bb7f9c7b771786f37e6f38a168423f480894292",
+                "reference": "2bb7f9c7b771786f37e6f38a168423f480894292",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-rdkafka": "^4.0|^5.0|^6.0",
-                "php": "^8.0"
+                "php": "^7.3|^8.0"
             },
             "require-dev": {
                 "flix-tech/avro-serde-php": "^1.4",
-                "infection/infection": "^0.26",
+                "infection/infection": "^0.22",
                 "johnkary/phpunit-speedtrap": "^3.1",
                 "kwn/php-rdkafka-stubs": "^2.0.0",
                 "php-mock/php-mock-phpunit": "^2.6",
-                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^9.4",
                 "rregeer/phpunit-coverage-check": "^0.3.1",
                 "squizlabs/php_codesniffer": "^3.5.4"
@@ -2232,9 +2232,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jobcloud/php-kafka-lib/issues",
-                "source": "https://github.com/jobcloud/php-kafka-lib/tree/v2.0.0"
+                "source": "https://github.com/jobcloud/php-kafka-lib/tree/v1.7.1"
             },
-            "time": "2022-12-30T09:21:59+00:00"
+            "time": "2022-12-07T08:12:08+00:00"
         },
         {
             "name": "laravel/lumen-framework",
@@ -5183,12 +5183,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "a59a13791077fe3d44f90e7133eb68e7d22eaff2"
+                "reference": "20d6a1bdfd62910da28b447b2ccb39ac542e96b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/a59a13791077fe3d44f90e7133eb68e7d22eaff2",
-                "reference": "a59a13791077fe3d44f90e7133eb68e7d22eaff2",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/20d6a1bdfd62910da28b447b2ccb39ac542e96b2",
+                "reference": "20d6a1bdfd62910da28b447b2ccb39ac542e96b2",
                 "shasum": ""
             },
             "require": {
@@ -5248,7 +5248,7 @@
             ],
             "support": {
                 "issues": "https://github.com/vlucas/phpdotenv/issues",
-                "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.1"
+                "source": "https://github.com/vlucas/phpdotenv/tree/master"
             },
             "funding": [
                 {
@@ -5260,7 +5260,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-20T21:52:34+00:00"
+            "time": "2025-04-16T09:40:23+00:00"
         },
         {
             "name": "voku/portable-ascii",
