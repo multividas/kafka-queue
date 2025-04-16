@@ -1,0 +1,35 @@
+{
+    "name": "multividas/kafka-queue",
+    "license": "MIT",
+    "description": "Kafka Queue for PHP",
+    "authors": [
+        {
+            "name": "Soulaimane Yahya",
+            "email": "soulaimaneyahya1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kafka\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/lumen-framework": "^10.0",
+        "squizlabs/php_codesniffer": "^3.7",
+        "jobcloud/php-kafka-lib": "^2.0"
+    },
+    "scripts": {
+        "php-fixer": [
+            "./vendor/bin/phpcs src --standard=PSR2"
+        ]
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Kafka\\Providers\\KafkaServiceProvider"
+        ]
+      }
+    },
+    "minimum-stability": "dev"
+}
